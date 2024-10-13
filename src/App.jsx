@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='container mx-auto px-4 lg:px-16 py-4'>
       <Header></Header>
-      <div className='my-8 md:flex'>
+      <div className='my-8 md:flex gap-6'>
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </div>
